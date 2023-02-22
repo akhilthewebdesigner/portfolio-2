@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Raleway&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+span.vertical{
+    display: block;
+    height: 2px;
+    width: 200px;
+    margin: 0 20px;
+    background: #000;
+}
+
+span.l-1{
+    margin: 10px auto;
+}
+
+span.horizontal{
+    display: block;
+    height: 200px;
+    width: 2px;
+    background: #000;
+}
+
+.heading{
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+    font-family: 'Gajraj One', cursive;
+    margin: 0 10px;
+}
+
+span.tags{
+    color: rgb(193, 0, 193);
+    margin: 10px 0;
+    /* background: teal;
+    padding: 2px; */
+}
+.home{
+    width: 100vw;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    margin: 0;
+    border: 5px solid rgb(193, 0, 193);
+
+}
+
+.content-1{
+    margin: auto 0;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-shadow: 0 0 0 10px black;
+}
+.main{
+    font-size: 20px;
+}
+.main h1{
+    font-size: 5em;
+    color: rgb(255, 191, 117);
+}
+
+.main p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 0;
+    padding: 10px;
+    border: 2px solid #fff;
+    width: 300px;
+}
+
+.about{
+    border: 5px solid red;
+    background: #fff;
+    color: #131313;
+    padding: 0 30px;
+}
+
+.about h1{
+    font-size: 50px;
+}
+
+.content-2{
+    background: #fff;
+    color: #000;
+    text-align: left;
+}
+
+.content-2 .tags{
+    margin: 10px 0;
+}
+
+.content-2 p {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+span.tags{
+    font-size: 30px;
+}
+
+.skills{
+    border: 5px solid blue;
+}
+
+.col-1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+#card{
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.box-1{
+    border: 3px dotted red;
+}
+
+.box-2{
+    border: 3px dotted blue;
+}
+
+.box-3{
+    border: 3px dotted yellow;
+}
+
+.box-4{
+    border: 3px dotted green;
+}
+
+.skill-sec{
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.contact{
+    border: 5px solid yellow;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact h1{
+    font-size: 50px;
+}
+
+.contact p{
+    font-size: 20px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.contact button{
+    margin: 20px 0;
+    padding: 20px 50px;
+    border-radius: 10px;
+    background: rgb(255, 221, 0);
+    color: #131313;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+}
+
+.contact button:hover{
+    background: rgb(102, 102, 255);
+}
+
+.thanks{
+    text-align: center;
+}
+
+.footer .col-1{
+    overflow: hidden;
+}
+
+.thanks {
+    width: 300px;
+    margin: 10px auto;
+}
+
+#circle{
+    cursor: pointer;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 4px dotted black;
+    margin: 10px 100px;
+    animation: rotate 3s linear infinite;
+    transition: .5s;
+}
+
+#circle:hover{
+    width: 150px;
+    height: 150px;
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#square{
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #131313;
+}
+
+#square img{
+    margin: 20px;
+    border-radius: 50%;
+    width: 210px;
+    height: 200px;
+    border: 2px dotted black;
+}
+
+.text{
+    width: 300px;
+    margin: 100px 30px;
+}
+
+.text h1{
+    margin: 20px;
+}
